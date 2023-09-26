@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.hero-bg {
+  background-image: url(https://i.ibb.co/wrPLV0B/fc1f79e18cdc1a12320b9b10ec3e253d.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+
+.swal-button-container {
+  outline: none;
+  background: #a5dc86;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.swal-button {
+  background-color: #f5e187;
+  color: #131313;
+}
