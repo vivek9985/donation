@@ -3,7 +3,7 @@ import logo from "../../assets/Logo.png";
 const Header = () => {
   return (
     <div>
-      <nav className="w-10/12 mx-auto flex flex-col md:flex-row items-center justify-between pt-6 pb-2">
+      <nav className="w-10/12 mx-auto flex flex-col md:flex-row items-center justify-between py-6 absolute left-0 right-0 top-0 z-10">
         <Link to="/">
           <img src={logo} className="w-[180px] cursor-pointer" alt="" />
         </Link>

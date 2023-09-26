@@ -3,10 +3,10 @@ import Donations from "../../components/donations/Donations";
 
 const Home = () => {
   return (
-    <div>
+    <div className="mt-14">
       <div className="hero-bg">
-        <div className="py-28 bg-[#ffffffec]">
-          <h2 className="text-3xl md:text-4xl lg:text-[42px] text-black font-bold text-center pb-14 px-2 md:px-0">
+        <div className="pt-20 pb-28 bg-[#ffffffee]">
+          <h2 className="text-3xl md:text-4xl lg:text-[42px] text-black font-bold text-center mt-12 mb-10 px-2 md:px-0">
             I Grow By Helping People In Need
           </h2>
           <div className="bg-gray-400 w-80 sm:w-80 md:w-96 mx-auto flex border overflow-hidden rounded-lg mb-20">
