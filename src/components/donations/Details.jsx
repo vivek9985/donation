@@ -27,7 +27,7 @@ const Details = () => {
         localStorage.setItem("donations", JSON.stringify(allDonations));
         swal("Good job!", "You have donated successfully", "success");
       } else {
-        swal("Sorry!", "You have already donated", "error");
+        swal("Oops!", "You have already donated", "error");
       }
     }
   };
@@ -46,7 +46,7 @@ const Details = () => {
             style={{ background: detail.textColor }}
             className="text-sm md:text-base text-white py-1.5 md:py-2 px-5 md:px-6 rounded-md ml-7 my-5 md:my-6 lg:my-8"
           >
-            Donate <span>$290</span>
+            Donate <span>${detail.amount}</span>
           </button>
         </div>
       </div>

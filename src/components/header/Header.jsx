@@ -25,7 +25,7 @@ const Header = () => {
                 isActive ? "text-red-400 border-b-2 border-red-400" : ""
               }
             >
-              Donations
+              Donation
             </NavLink>
           </li>
           <li>
