@@ -16,7 +16,7 @@ const Home = () => {
             </h2>
             <div className="bg-gray-400 w-80 sm:w-80 md:w-96 mx-auto flex border overflow-hidden rounded-lg mb-20">
               <input
-                onChange={(e) => setSearch(e.target.value)}
+                onBlur={(e) => setSearch(e.target.value)}
                 type="text"
                 placeholder="Search here..."
                 className="bg-white py-2 md:py-[11px] px-4 w-60 sm:w-72 md:w-80 outline-none"

@@ -4,11 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 0.9rem;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2c0c0;
+  border-radius: 2rem;
+  border-right: 0.2rem;
+  border-style: solid;
+  border-color: transparent;
+  background-clip: content-box;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
 
-*:focus{
+*:focus {
   outline: none;
 }
 .hero-bg {
